@@ -1,4 +1,5 @@
 import random
+from typing import Dict, List, Optional, Tuple, Union
 
 
 def topological_sort(graph):

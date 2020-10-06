@@ -1,4 +1,4 @@
-from typing import int
+from typing import List
 
 
 def squares_list(n):
