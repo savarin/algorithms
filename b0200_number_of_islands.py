@@ -8,7 +8,7 @@ def island_count(grid):
     adjacent lands horizontally or vertically. You may assume all four edges of
     the grid are all surrounded by water.
 
-    https://leetcode.com/problems/number-of-islands/
+    https://leetcode.com/problems/number-of-islands
     """
     # Initialize all possible points in the map
     points = set([(i, j) for i in range(len(grid)) for j in range(len(grid[0]))])
@@ -52,10 +52,10 @@ def island_count(grid):
 
 if __name__ == "__main__":
     grid = [
-        ['1', '1', '0', '0', '0'],
-        ['1', '1', '0', '0', '0'],
-        ['0', '0', '1', '0', '0'],
-        ['0', '0', '0', '1', '1'],
+        ["1", "1", "0", "0", "0"],
+        ["1", "1", "0", "0", "0"],
+        ["0", "0", "1", "0", "0"],
+        ["0", "0", "0", "1", "1"],
     ]
 
     print(island_count(grid))
